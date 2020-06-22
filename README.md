@@ -1,23 +1,23 @@
-1. CONTENTS OF THE PACKAGE:
+**1. CONTENTS OF THE PACKAGE:**
 
   calc.l		-Flex code for scanning
   calc.y		-Bison code for parsing
   makefile.txt	-instructions to make the program
 
-2. SYSTEM REQUIREMENTS:
+**2. SYSTEM REQUIREMENTS:**
 
   gcc-GNU Compiler Colection
   Flex 
   Bison 
 
-3. COMPILATION AND EXECUTION:
+**3. COMPILATION AND EXECUTION:**
 
   flex –l calc.l 
   bison -dv calc.y 
   gcc -o calc calc.tab.c lex.yy.c –lfl 
   ./calc < input // input is the name of the input file
 
-4. DESCRIPTION:
+**4. DESCRIPTION:**
 
   *Lexical analysis is also called scanning and syntax analysis is called parsing.<br />
   *Scanning divides the input into meaningful chunks, called tokens, and parsing figures out how the tokens relate to each other.<br />
