@@ -4,13 +4,13 @@ calc.l		-Flex code for scanning
 calc.y		-Bison code for parsing
 makefile.txt	-instructions to make the program
 
-2.SYSTEM REQUIREMENTS:
+2. SYSTEM REQUIREMENTS:
 
 gcc-GNU Compiler Colection
 Flex 
 Bison 
 
-3.COMPILATION AND EXECUTION:
+3. COMPILATION AND EXECUTION:
 
 flex –l calc.l 
 bison -dv calc.y 
