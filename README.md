@@ -1,22 +1,21 @@
-
 1. CONTENTS OF THE PACKAGE:
 
- calc.l		-Flex code for scanning
- calc.y		-Bison code for parsing
- makefile.txt	-instructions to make the program
+calc.l		-Flex code for scanning
+calc.y		-Bison code for parsing
+makefile.txt	-instructions to make the program
 
 2.SYSTEM REQUIREMENTS:
 
- gcc-GNU Compiler Colection
- Flex 
- Bison 
+gcc-GNU Compiler Colection
+Flex 
+Bison 
 
 3.COMPILATION AND EXECUTION:
 
- flex –l calc.l 
- bison -dv calc.y 
- gcc -o calc calc.tab.c lex.yy.c –lfl 
- ./calc < input // input is the name of the input file
+flex –l calc.l 
+bison -dv calc.y 
+gcc -o calc calc.tab.c lex.yy.c –lfl 
+./calc < input // input is the name of the input file
 
 4. DESCRIPTION:
 
